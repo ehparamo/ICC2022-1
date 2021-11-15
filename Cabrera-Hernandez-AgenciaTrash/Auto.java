@@ -1,3 +1,4 @@
+
 /**
 * Clase que define los atributos y métodos de un Auto de la Agencia Trash.
 * @author : Dhamar Cabrera.
@@ -33,7 +34,7 @@ public class Auto {
 	this.color = "Rojo";
 	this.n_llantas = 4;
 	this.n_puertas = 4;
-	this.precio = 276.900;
+	this.precio = 276900;
     }
   
     /**
