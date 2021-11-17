@@ -1,64 +1,72 @@
 /**
- * Clase que representa al Cliente
- * @author Elizabeth
+ * Clase que representa un Cliente en la Agencia Trash.
+ * @author : DhamarCabrera
+ * @author : Elizabeth Hernandez.
  * @version 1.0
  */
 
-public class Cliente
-{
-    //ATRIBUTOS
-    //Nombre del cliente
-    private String nombre;
-
-    //Dinero disponible del cliente
-    private int dineroDisponible;
-
-    //MÉTODOS CONSTRUCTORES
+public class Cliente {
+    //Atributos
+    private String nombre; //Nombre del cliente
+    private int edad; //Qué edad tiene el cliente.
+    private double dineroDisponible; //Dinero disponible del cliente
 
     /**
-     * Es el método en el que recibe dos argumentos 
-     * @param nombreNombre del cliente
-     * @param dineroDisponible
+     * Constructor con parámetros del cliente.
+     * Recibe dos argumentos.
+     * @param : Nombre del cliente
+     * @param : dinero que dispone el cliente.
      */
 
-    public Cliente(String nombre, int dineroDisponible)
-    {
+    public Cliente(String nombre, int edad, double dineroDisponible){
 	this.nombre = nombre;
+	this.edad = edad;    
 	this.dineroDisponible = dineroDisponible;
     }
 
-    // SETTERS Y GETTERS
+    /**
+     * Métodos de acceso y modificación de atributos del cliente.
+     */
 
-    // @param nombre nuevo
-    public void setNombre(String nombre)
-    {
+    // @param : nombre del nuevo cliente
+    public void setNombre(String nombre){
 	this.nombre = nombre;
     }
 
-    // @return nombre del Cliente
-    public String getNombre()
-    {
+    // @return : último nombre que se agregó del Cliente
+    public String getNombre(){
 	return this.nombre;
     }
 
-    // @param nuevo dineroDisponible
-    public void setNombre(int dineroDisponible)
-    {
+    // @param : dinero disponible con el que cuenta el cliente.
+    public void setEdad(int edad){
+	this.edad = edad;
+    }
+
+    // @return : dinero disponible total del cliente
+    public int edad(){
+	return this.edad;
+    }
+	
+    // @param : dinero disponible con el que cuenta el cliente.
+    public void setNombre(double dineroDisponible){
 	this.dineroDisponible = dineroDisponible;
     }
 
-    // @return dinero disponible del cliente
-    public int dineroDisponible()
-    {
+    // @return : dinero disponible total del cliente
+    public double dineroDisponible(){
 	return this.dineroDisponible;
     }
 
-    //MÉTODOS ESPECIALES
-
-    // @return información completa
-    public String info()
-    {
-	return "Nombre del cliente: " + nombre + "\n" + "Dinero disponible: " + dineroDisponible;
+   /**
+   * Método Especial.
+   * @return : información completa del cliente
+   */
+    public String toString(){
+	return "Nombre del cliente: " + this.nombre + "\n" + "Edad del cliente: " + this.edad + "\n" + "Saldo con el que cuenta el cliente: " + this.dineroDisponible;
     }
-    
 }
+
+/**
+* Fin del programa.
+*/
