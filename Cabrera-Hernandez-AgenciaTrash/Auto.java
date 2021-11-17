@@ -9,7 +9,6 @@ public class Auto {
   // Atributos del Auto.
   private String marca; //cuál es su marca
   private String modelo; //qué modelo es
-<<<<<<< HEAD
   private String tipo; //sedan, rural, familiar, casa rodante, etc...
   private String modo; //Manual o Automático
   private String color; //cuál es su color
@@ -51,7 +50,6 @@ public class Auto {
      * @param : n_puertas
      * @param : precio
      */
-    
     public Auto ( String marca, String modelo, String tipo, String modo, String color, int n_llantas, int n_puertas, String precio){
 	this.marca = marca;
 	this.modelo = modelo;
@@ -85,7 +83,6 @@ public class Auto {
     public String getTipo ( String tipo ){
 	return this.tipo = tipo;
     }
-<<<<<<< HEAD
     public String getModo ( String modo ){
 	return this.modo = modo;
     }
