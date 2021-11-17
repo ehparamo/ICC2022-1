@@ -168,8 +168,8 @@ public class Agencia {
 					Scanner vendedor = new Scanner (System.in);
 					String vendedor = vendedor.nextString();
 					System.out.println("Escriba su queja sobre el empleado:");
-					Scanner empleado = new Scanner (System.in);
-					String empleado = empleado.nextString();
+					Scanner vendedor = new Scanner (System.in);
+					String vendedor = empleado.nextString();
 					System.out.println("Haremos lo posible por mejorar nuestro servicio tomando en cuenta las observaciones que nos ha hecho saber, gracias por su participación. ");
 					break;
 					
@@ -179,6 +179,7 @@ public class Agencia {
 	if ( opcion == 3)  {
 			System.out.println("Gracias por su visita a la Agencia Trash, esperamos verlo pronto.");
 			break;
-	    }
+	}
+	}
     }
 }
