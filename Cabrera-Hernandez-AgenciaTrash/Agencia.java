@@ -14,15 +14,12 @@ public class Agencia {
 	int opcion, car, tarjeta, queja;
 	String color, pago, servicio,vendedor;
 
-	//Se le de la Bienvenida al usuario y se le arroja el menú de opciones que puede ingresar
-	System.out.println("Bienvenido a la AgenciaTrash");
-	System.out.println("¿En qué podemos ayudarte?");
-	System.out.println("Menú: ");
-	System.out.println("1. Comprar un auto");
-	System.out.println("2. Quejas");
-	System.out.println("3. Salir de la página");
+	//Bienvenida al usuario,  menú de opciones que puede ingresar
+	Vendedor uno = new Vendedor ();
+	System.out.println (uno.getRecibe());
 
 	//Se le pide al usuario que ingrese el valor
+	Scanner opcion = new Scanner (System.in);
 	opcion = teclado.nextInt();
 	
 	//Si el valor de opcion es mayor a 3 o menor a 1, le marcará error 
