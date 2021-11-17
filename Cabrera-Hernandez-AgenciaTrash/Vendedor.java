@@ -100,6 +100,30 @@ public class Vendedor {
     public void setDespedida ( String bye ){
 	this.bye = bye;
     }
+
+    /**
+     * Métodos de comportamiento para imprimir dialogos del Vendedor
+     * @return : recibe
+     * @return : venta
+     * @return : noventa
+     * @return : ticket
+     * @return : despedida
+     */
+    public String toStringRecibe(){
+	return this.recibe; 
+    }
+    public String toStringSi(){
+	return this.venta; 
+    }
+    public String toStringNo(){
+	return this.noventa; 
+    }
+    public String toStringTicket(){
+	return this.ticket; 
+    }
+    public String toStringDespedida(){
+	return this.bye; 
+    }
 }
 
 /**

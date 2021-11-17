@@ -48,7 +48,7 @@ public class MAuto {
     
 
 
-    //Menú de los Modelos más solicitudes de Autos de la Agencia Trash.
+    //Menú de los Modelos de Autos disponibles en la Agencia Trash.
     System.out.println ("\n" + "\n" +" ---> Autos de la Agencia Trash disponibles en esta sucursal <--- " + "\n" + "\n" + "1.  Chevrolet Aveo 2021. " + "\n" + "2.  Chevrolet Tornado 2022." + "\n" + "3.  Ford Explorer 2020." + "\n" + "4.  Ford Mustang 2019." + "\n" + "5.  Jeep Wrangler 2016." + "\n" + "6.  Mercedes Benz BUMO Acrocs 2021." + "\n" + "7.  Mini Convertible 2022." + "\n" + "8.  Nissan Tiida 2011." + "\n" + "9.  Nissan Versa 202.1" + "\n" + "10. Smart Fortwo 2015." + "\n" + "11. Toyota Sienna 2013." + "\n" + "12. Toyota Hilux 2017.");
     System.out.print( "\n" + "\n" + " |" + "\n" + " | Indique el número del auto que desearía comprar: ");
 
