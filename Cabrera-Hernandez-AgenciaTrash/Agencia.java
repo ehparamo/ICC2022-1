@@ -1,13 +1,13 @@
+import java.util.Scanner;
 /**
- * Clase que representa la Agencia
- * @author : Elizabeth
+ * Clase que representa el trato con nuestros clientes en la Agencia Trash.
+ * @author : Dhamar Cabrera.
+ * @author : Elizabeth Hernandez.
  * @version : 1.0
  */
 
-public class Agencia
-{
-    public static void main(String[] args)
-    {
+public class Agencia {
+    public static void main(String[] args)  {
 	//Se utiliza el Scanner para que el usuario pueda escribir 
 	Scanner teclado = new Scanner(System.in);
 	//Se inicializa la variable opcion
